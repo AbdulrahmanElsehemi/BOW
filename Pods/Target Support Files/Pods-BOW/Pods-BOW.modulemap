@@ -1,0 +1,6 @@
+framework module Pods_BOW {
+  umbrella header "Pods-BOW-umbrella.h"
+
+  export *
+  module * { export * }
+}
