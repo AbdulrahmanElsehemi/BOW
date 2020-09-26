@@ -36,6 +36,10 @@
 		BC4F1E74251E7BF300EE45C0 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E73251E7BF300EE45C0 /* ImagePreviewViewController.swift */; };
 		BC4F1E77251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E76251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift */; };
 		BC4F1E7B251F8EB000EE45C0 /* EditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E7A251F8EB000EE45C0 /* EditImageViewController.swift */; };
+		BC4F1E7F251F916900EE45C0 /* VideoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E7E251F916900EE45C0 /* VideoHeaderView.swift */; };
+		BC4F1E83251F91E500EE45C0 /* VideoCatgoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E82251F91E500EE45C0 /* VideoCatgoryViewController.swift */; };
+		BC4F1E86251F920A00EE45C0 /* VideoSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E85251F920A00EE45C0 /* VideoSearchViewController.swift */; };
+		BC4F1E89251F924800EE45C0 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E88251F924800EE45C0 /* VideoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		BC4F1E73251E7BF300EE45C0 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
 		BC4F1E76251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPreviewCollectionViewCell.swift; sourceTree = "<group>"; };
 		BC4F1E7A251F8EB000EE45C0 /* EditImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageViewController.swift; sourceTree = "<group>"; };
+		BC4F1E7E251F916900EE45C0 /* VideoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHeaderView.swift; sourceTree = "<group>"; };
+		BC4F1E82251F91E500EE45C0 /* VideoCatgoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCatgoryViewController.swift; sourceTree = "<group>"; };
+		BC4F1E85251F920A00EE45C0 /* VideoSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSearchViewController.swift; sourceTree = "<group>"; };
+		BC4F1E88251F924800EE45C0 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,11 +148,13 @@
 		BC4F1DC4251A55CA00EE45C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC4F1E7E251F916900EE45C0 /* VideoHeaderView.swift */,
 				BC4F1E30251CF4EF00EE45C0 /* OnboardingCollectionViewCell.swift */,
 				BC4F1E69251E6F1B00EE45C0 /* ImageCategoryCollectionViewCell.swift */,
 				BC4F1E63251E6DCC00EE45C0 /* ImageCollectionViewCell.swift */,
 				BC4F1E66251E6EE900EE45C0 /* HeaderView.swift */,
 				BC4F1E76251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift */,
+				BC4F1E88251F924800EE45C0 /* VideoCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,6 +219,8 @@
 			isa = PBXGroup;
 			children = (
 				BC4F1E5C251E5D5C00EE45C0 /* VideosViewController.swift */,
+				BC4F1E82251F91E500EE45C0 /* VideoCatgoryViewController.swift */,
+				BC4F1E85251F920A00EE45C0 /* VideoSearchViewController.swift */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -342,14 +354,17 @@
 				BC4F1E1E251CEE0100EE45C0 /* UIViewController.swift in Sources */,
 				BC4F1DD1251A5E1200EE45C0 /* UIView.swift in Sources */,
 				BC4F1E61251E5E0800EE45C0 /* OnboardingViewController.swift in Sources */,
+				BC4F1E83251F91E500EE45C0 /* VideoCatgoryViewController.swift in Sources */,
 				BC4F1E70251E6FBD00EE45C0 /* CategoryViewController.swift in Sources */,
 				BC4F1E0F251CED4C00EE45C0 /* String.swift in Sources */,
 				BC4F1E18251CEDB600EE45C0 /* structures.swift in Sources */,
 				BC4F1E28251CF31800EE45C0 /* ImageDetailModel.swift in Sources */,
+				BC4F1E86251F920A00EE45C0 /* VideoSearchViewController.swift in Sources */,
 				BC4F1E1B251CEDDD00EE45C0 /* UIImageView.swift in Sources */,
 				BC4F1E77251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift in Sources */,
 				BC4F1E6D251E6FA200EE45C0 /* SearchViewController.swift in Sources */,
 				BC4F1E25251CF2FC00EE45C0 /* FetchImageModel.swift in Sources */,
+				BC4F1E89251F924800EE45C0 /* VideoCollectionViewCell.swift in Sources */,
 				BC4F1DA5251A4D8000EE45C0 /* SceneDelegate.swift in Sources */,
 				BC4F1E59251E5D4200EE45C0 /* ImagesViewController.swift in Sources */,
 				BC4F1E67251E6EE900EE45C0 /* HeaderView.swift in Sources */,
@@ -357,6 +372,7 @@
 				BC4F1E7B251F8EB000EE45C0 /* EditImageViewController.swift in Sources */,
 				BC4F1E6A251E6F1B00EE45C0 /* ImageCategoryCollectionViewCell.swift in Sources */,
 				BC4F1E22251CEF0900EE45C0 /* CustomLayout.swift in Sources */,
+				BC4F1E7F251F916900EE45C0 /* VideoHeaderView.swift in Sources */,
 				BC4F1E15251CED9800EE45C0 /* Constants.swift in Sources */,
 				BC4F1E74251E7BF300EE45C0 /* ImagePreviewViewController.swift in Sources */,
 				BC4F1E64251E6DCC00EE45C0 /* ImageCollectionViewCell.swift in Sources */,

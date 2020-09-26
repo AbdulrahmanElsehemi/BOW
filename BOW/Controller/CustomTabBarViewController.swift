@@ -18,13 +18,11 @@ class CustomTabBarViewController: UITabBarController {
 
         let vc2 = VideosViewController()
         let videoVC = UINavigationController(rootViewController: vc2)
-        
+
         let tabBarList = [imageVC , videoVC]
         viewControllers = tabBarList
-        
-        
+
         setUpViews()
-        
         customTab(selectedImage: "images-selected", deselectedImage: "images", indexOfTab: 0 , tabTitle: "")
         customTab(selectedImage: "videos-selected", deselectedImage: "videos", indexOfTab: 1 , tabTitle: "")
     }

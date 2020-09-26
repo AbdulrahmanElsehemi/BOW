@@ -81,7 +81,7 @@ class ImagesViewController: UIViewController {
     }
 
     func setUpNavigationBar(){
-        navigationController?.navigationBar.topItem?.title = "PIXEL"
+        navigationController?.navigationBar.topItem?.title = "BOW"
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0, height: 0.5)
