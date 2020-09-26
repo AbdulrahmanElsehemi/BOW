@@ -34,6 +34,8 @@
 		BC4F1E6D251E6FA200EE45C0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E6C251E6FA200EE45C0 /* SearchViewController.swift */; };
 		BC4F1E70251E6FBD00EE45C0 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E6F251E6FBD00EE45C0 /* CategoryViewController.swift */; };
 		BC4F1E74251E7BF300EE45C0 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E73251E7BF300EE45C0 /* ImagePreviewViewController.swift */; };
+		BC4F1E77251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E76251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift */; };
+		BC4F1E7B251F8EB000EE45C0 /* EditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4F1E7A251F8EB000EE45C0 /* EditImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		BC4F1E6C251E6FA200EE45C0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		BC4F1E6F251E6FBD00EE45C0 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		BC4F1E73251E7BF300EE45C0 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		BC4F1E76251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPreviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC4F1E7A251F8EB000EE45C0 /* EditImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 				BC4F1E69251E6F1B00EE45C0 /* ImageCategoryCollectionViewCell.swift */,
 				BC4F1E63251E6DCC00EE45C0 /* ImageCollectionViewCell.swift */,
 				BC4F1E66251E6EE900EE45C0 /* HeaderView.swift */,
+				BC4F1E76251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 		BC4F1DC7251A565400EE45C0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC4F1E79251F8E6800EE45C0 /* EditImages */,
 				BC4F1E57251E5D1200EE45C0 /* Videos */,
 				BC4F1E56251E5D0600EE45C0 /* Images */,
 				BC4F1DCC251A56AC00EE45C0 /* CustomTabBarViewController.swift */,
@@ -205,6 +211,14 @@
 				BC4F1E5C251E5D5C00EE45C0 /* VideosViewController.swift */,
 			);
 			path = Videos;
+			sourceTree = "<group>";
+		};
+		BC4F1E79251F8E6800EE45C0 /* EditImages */ = {
+			isa = PBXGroup;
+			children = (
+				BC4F1E7A251F8EB000EE45C0 /* EditImageViewController.swift */,
+			);
+			path = EditImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,12 +347,14 @@
 				BC4F1E18251CEDB600EE45C0 /* structures.swift in Sources */,
 				BC4F1E28251CF31800EE45C0 /* ImageDetailModel.swift in Sources */,
 				BC4F1E1B251CEDDD00EE45C0 /* UIImageView.swift in Sources */,
+				BC4F1E77251F8E3D00EE45C0 /* FilterPreviewCollectionViewCell.swift in Sources */,
 				BC4F1E6D251E6FA200EE45C0 /* SearchViewController.swift in Sources */,
 				BC4F1E25251CF2FC00EE45C0 /* FetchImageModel.swift in Sources */,
 				BC4F1DA5251A4D8000EE45C0 /* SceneDelegate.swift in Sources */,
 				BC4F1E59251E5D4200EE45C0 /* ImagesViewController.swift in Sources */,
 				BC4F1E67251E6EE900EE45C0 /* HeaderView.swift in Sources */,
 				BC4F1E12251CED6F00EE45C0 /* UImage.swift in Sources */,
+				BC4F1E7B251F8EB000EE45C0 /* EditImageViewController.swift in Sources */,
 				BC4F1E6A251E6F1B00EE45C0 /* ImageCategoryCollectionViewCell.swift in Sources */,
 				BC4F1E22251CEF0900EE45C0 /* CustomLayout.swift in Sources */,
 				BC4F1E15251CED9800EE45C0 /* Constants.swift in Sources */,
